@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Job Search",
+  "description": "Finds the career page of any website you visit, making it easier to find a job",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon1.png",
+    "default_title": "Find jobs!",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "<all_urls>",
+    "activeTab",
+    "tabs"
+  ]
+}
